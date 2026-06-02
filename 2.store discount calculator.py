@@ -1,3 +1,10 @@
+"""A very simple Python program that calculates customer discounts based on purchase amount according to the store's rule:
+-purchases over 50=20% discount
+-purchases between 20 and 50=10% discount
+-purchases under 20=No discount
+
+skills practiced: if, elif, else"""
+
 amount=int(input("Please enter the amount"))
 if amount>50:
     discount_rate=20
