@@ -1,3 +1,6 @@
+"""Python program that takes a student's name and multiple grades, then calculates highest, lowest, and average. 
+Then saves results to a text file."""
+
 name_student=input("enter name.")
 grade_numbers=int(input("how many grades?"))
 list_grades=[]
